@@ -150,3 +150,7 @@ section.features > div.container > div.row {
 section.features > div.container > div.row > div.col-md-4 > h3 {
 	margin-top: 20px;
 }
+
+#title {
+	font-variant: small-caps;
+}
