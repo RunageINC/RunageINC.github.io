@@ -1,5 +1,5 @@
 body {
-	background-color: rgb(0, 0, 0);
+	background-color: #001520;
 	color: white;
 	font-family: 'Red Rose', cursive;
 }
@@ -13,13 +13,14 @@ section {
 	justify-content: center;
 }
 
-section.banner {
-	color: white;
-}
-
 section.team {
 	margin: 20px;
 }
+
+section.team > h2 {
+	margin: 0 75px;
+}
+
 div.media {
 	background: white;
 	color: black;
@@ -39,10 +40,6 @@ section.footer {
 h2 {
 	margin: 20px 50px;
 	font-weight: bold;
-}
-
-section.jobs > h2 {
-	margin-left: 100px;
 }
 
 /* Gradient transparent - color - transparent */
@@ -68,6 +65,7 @@ hr.style-four {
 
 section.jobs {
 	margin-left: -35%;
+	margin-top: 20px;
 }
 
 #row-job {
@@ -154,8 +152,13 @@ section.features > div.container > div.row > div.col-md-4 > h3 {
 	background-image: url("../resources/bg.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+	width: 100%;
 }
 
 .feedback-row {
 	margin: 10px 0;
+}
+
+#title-dev {
+	margin: 50px 100px 0;
 }
