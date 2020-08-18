@@ -14,7 +14,7 @@ section {
 }
 
 section.banner {
-	color: black;
+	color: white;
 }
 
 section.team {
@@ -153,4 +153,11 @@ section.features > div.container > div.row > div.col-md-4 > h3 {
 
 #title {
 	font-variant: small-caps;
+	margin: 10px 0;
+}
+
+#banner-body {
+	background-image: url("../resources/bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
