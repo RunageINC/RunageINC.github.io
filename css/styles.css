@@ -45,12 +45,6 @@ section.jobs > h2 {
 	margin-left: 100px;
 }
 
-blockquote {
-	width: 80%;
-	height: 100px;
-	margin-left: 30px;
-}
-
 /* Gradient transparent - color - transparent */
 
 hr {
@@ -160,4 +154,8 @@ section.features > div.container > div.row > div.col-md-4 > h3 {
 	background-image: url("../resources/bg.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+.feedback-row {
+	margin: 10px 0;
 }
