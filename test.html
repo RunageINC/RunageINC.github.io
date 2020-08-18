@@ -6,8 +6,32 @@
 	<link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet"> 
 	<link rel="stylesheet" type="text/css" href="css/essentials/bootstrap.min.css">
 	<style type="text/css">
+		body {
+			background-image: url("./resources/amoras.jpg");
+		}
+
 		h1 {
 			font-family: 'Monoton', sans-serif;
+			background: black;
+			border: 1px solid white;
+		}
+
+		.glow {
+			font-size: 80px;
+			color: #b5009d;
+			text-align: center;
+			-webkit-animation: glow 1s ease-in-out infinite alternate;
+			-moz-animation: glow 1s ease-in-out infinite alternate;
+			animation: glow 1s ease-in-out infinite alternate;
+		}
+
+		@-webkit-keyframes glow {
+			from {
+				text-shadow: 0 0 10px #b5009d, 0 0 20px #b5009d, 0 0 30px #6e6eff, 0 0 40px #6e6eff, 0 0 50px #6e6eff, 0 0 60px #6e6eff, 0 0 70px #6e6eff;
+			}
+			to {
+				text-shadow: 0 0 20px #b5009d, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+			}
 		}
 
 		img	{
@@ -19,19 +43,31 @@
 			width: 100px;
 			height: 100px;
 		}
+
+		div.row {
+			margin: 15px 5px;
+		}
+
+		div.row > div.col {
+			margin: 0 -10px !important;
+		}
+
+		div.cotainer {
+			align-content: center;
+		}
 	</style>
 </head>
 <body>
 	<div class="container">
-		<h1>Luana linda e gótica</h1>
-		<div class="row justify-content-center">
+		<h1 class="glow">Luana linda e gótica</h1>
+		<div class="row">
 			<div class="col-md-8">
 				<img src="resources/luana.jpg">
 			</div>
 		</div>
-		<div class="row justify-content-center">
+		<div class="row col-6 justify-content-start">
 			<div class="col">
-				<img src="resources/emoji1.png" class="portrait">	
+				<img src="resources/emoji1.png" class="portrait">
 			</div>
 			<div class="col">
 				<img src="resources/emoji2.png" class="portrait">
