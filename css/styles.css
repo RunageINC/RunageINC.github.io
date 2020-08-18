@@ -26,3 +26,19 @@ div.media {
 div.media-body {
 	margin: 10px 0;
 }
+
+section.footer {
+	border-top: 1px solid white;
+}
+
+/* Gradient transparent - color - transparent */
+
+hr {
+	margin: 10px 0;
+}
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
