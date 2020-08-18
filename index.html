@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Codename Portfolio</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/essentials/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Germania+One&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;700&display=swap" rel="stylesheet"> 
+	<script src="https://kit.fontawesome.com/e381bd0ac1.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
-		<a class="navbar-brand" href="#">Navbar</a>
+		<a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24" focusable="false"><title>Navbar</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -41,18 +44,24 @@
 
 	<section class="feedback">
 		<h2>Depoimentos</h2>
-		<blockquote class="text-center"><q>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</q> - Pessoa 1</blockquote><br>
-		<blockquote class="text-center"><q>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</q> - Pessoa 2</blockquote>
+		<div class="container">
+			<div class="row">
+				<blockquote class="text-center"><q>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</q> - Pessoa 1</blockquote>
+			</div>
+			<div class="row">
+				<blockquote class="text-center"><q>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</q> - Pessoa 2</blockquote>	
+			</div>
+		</div>
 	</section>
 
 	<hr class="style-two">
@@ -60,13 +69,13 @@
 	<section class="jobs">
 		<h2>Produtos</h2>
 		<div class="container">
-			<div class="row">
+			<div class="row" id="row-job">
 				<div class="col-md-6">
 					<div class="card mb-3 bg-dark text-white">
 						<img src="./resources/produto1.png" class="card-img-top" alt="...">
 						<div class="card-body">
 							<h5 class="card-title">GB Academia de Música</h5>
-							<p class="card-text">Site feito para ajudar na divulgação da escola de música GB Academia de Música, em parceria com Izzy Webs.</p>
+							<p class="card-text">Site feito para ajudar na divulgação da escola de música GB Academia de Música, em parceria com Izzy Webs. Layout simples utilizando de WordPress</p>
 							<p class="card-text"><small class="text-muted">Criado em ...</small></p>
 						</div>
 					</div>
@@ -79,6 +88,112 @@
 							<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 							<p class="card-text"><small class="text-muted">Criado em ...</small></p>
 						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<hr class="style-two">
+
+	<section class="features">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h3 class="text-center"><span class="symbol">&lt;</span>/<span class="symbol">&gt;</span></h3>
+					<h4 class="feature-paragraph">Criador de Sites ou Código Customizado</h4>
+					<p>Para auxiliar a entrega do seu site, você poderá escolher se prefere utilizar do criador da plataforma, disponibilizado pela hospedagem, utilizar do código do Wordpress ou até mesmo um código customizado especialmente para seu site (consultar preço).</p>
+				</div>
+			</div>
+			<hr class="style-four">
+			<div class="row">
+				<div class="col">
+					<div class="image-icons">
+						<i class="fab fa-angular"></i>
+						<i class="fab fa-react"></i>
+						<i class="fab fa-css3-alt"></i>
+						<i class="fab fa-html5"></i>
+						<i class="fab fa-bootstrap"></i>
+						<i class="fab fa-mdb"></i>
+						<img class="icon" src="./resources/icons/vue.png"> <br>
+						<i class="fab fa-js"></i>
+						<i class="fab fa-java"></i>
+						<i class="fab fa-php"></i>
+						<img class="icon" src="./resources/icons/mysql.svg">
+						<img class="icon" src="./resources/icons/postgres.png">
+						<img class="icon" src="./resources/icons/springdata.png">
+					</div>
+					<h4 class="feature-paragraph">Escolha sua linguagem, framework e banco preferidos</h4>
+					<p>Caso tenha uma linguagem de preferência ou deseja apenas acrescentar funcionalidades a um sistema ja pronto, temos uma lista de linguagens <em>front</em> e <em>back-end</em> bem como opções de banco de dados e frameworks disponíveis para usar em seu projeto.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<hr class="style-two">
+
+	<section class="pricing">
+		<h2>Preços: </h2>
+		<div class="container">
+			<div class="card-deck mb-3 text-center">
+				<div class="card mb-4 bg-dark text-white shadow-sm">
+					<div class="card-header">
+						<h4 class="my-0 font-weight-normal">Free</h4>
+					</div>
+					<div class="card-body">
+						<h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
+						<ul class="list-unstyled mt-3 mb-4">
+							<li>10 users included</li>
+							<li>2 GB of storage</li>
+							<li>Email support</li>
+							<li>Help center access</li>
+						</ul>
+						<button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
+					</div>
+				</div>
+				<div class="card mb-4 bg-dark text-white shadow-sm">
+					<div class="card-header">
+						<h4 class="my-0 font-weight-normal">Pro</h4>
+					</div>
+					<div class="card-body">
+						<h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
+						<ul class="list-unstyled mt-3 mb-4">
+							<li>20 users included</li>
+							<li>10 GB of storage</li>
+							<li>Priority email support</li>
+							<li>Help center access</li>
+						</ul>
+						<button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
+					</div>
+				</div>
+				<div class="card mb-4 bg-dark text-white shadow-sm">
+					<div class="card-header">
+						<h4 class="my-0 font-weight-normal">Enterprise</h4>
+					</div>
+					<div class="card-body">
+						<h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
+						<ul class="list-unstyled mt-3 mb-4">
+							<li>30 users included</li>
+							<li>15 GB of storage</li>
+							<li>Phone and email support</li>
+							<li>Help center access</li>
+						</ul>
+						<button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+					</div>
+				</div>
+				<div class="card mb-4 bg-dark text-white shadow-sm">
+					<div class="card-header">
+						<h4 class="my-0 font-weight-normal">Enterprise</h4>
+					</div>
+					<div class="card-body">
+						<h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
+						<ul class="list-unstyled mt-3 mb-4">
+							<li>30 users included</li>
+							<li>15 GB of storage</li>
+							<li>Phone and email support</li>
+							<li>Help center access</li>
+						</ul>
+						<button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
 					</div>
 				</div>
 			</div>
@@ -100,6 +215,22 @@
 						</div>
 					</div>
 				</div>
+			</div>
+		</div>
+	</section>
+
+	<hr class="style-two">
+
+	<section class="contact">
+		<h2>Contatos: </h2>
+		<div class="container">
+			<div class="row">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>		
 			</div>
 		</div>
 	</section>
